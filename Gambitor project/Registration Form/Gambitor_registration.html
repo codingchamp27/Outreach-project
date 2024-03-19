@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GambitoR Registration</title>
+    <link rel="stylesheet" href="Gambitor_registration.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Registration Form for GambitoR</h2>
+        <form id="registration-form" method="POST">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name here" required>
+            </div>
+
+
+            <div class="form-group">
+                <h4>Class:</h4>
+
+                <label for="std">
+                <input type="radio" id="9th" name="std" required>
+                9th</label>
+
+                <label for="std">
+                <input type="radio" id="10th" name="std" required>
+                10th</label>
+
+                <label for="std">
+                <input type="radio" id="11th" name="std" required>
+                11th</label>
+
+                <label for="std">
+                <input type="radio" id="12th" name="std" required>
+                12th</label>
+            </div>
+
+
+            <div class="form-group">
+                <label for="email">Email-Id:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your e-mail id here" required>
+            </div>
+
+
+            <div class="form-group">
+                <label for="mobile">Mobile Number:</label>
+                <input type="tel" id="mobile" name="mobile" pattern="[0-9]{10}" placeholder="Enter your mobile no. here" required>
+            </div>
+
+
+            <div class="form-group">
+                <label for="school">School Name:</label>
+                <input type="text" id="school" name="school" placeholder="Enter your school name here" required>
+            </div>
+
+
+            <div class="form-group">
+                <button type="submit">Register</button>
+            </div>
+        </form>
+    </div>
+    <script src="Gambitor_registration.js"></script>
+</body>
+</html>
